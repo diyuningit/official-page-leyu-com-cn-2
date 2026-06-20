@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>杏彩体育 · 稳定入口与平台说明</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f2f2f4;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: #1e1e1e;
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .page {
+            max-width: 960px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 24px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+            padding: 2.4rem 2rem 2.8rem;
+            border: 1px solid #ebebed;
+        }
+
+        /* hero */
+        .hero {
+            text-align: center;
+            padding: 3.2rem 1rem 2.2rem;
+            border-bottom: 1px solid #e8e8ec;
+            margin-bottom: 2.6rem;
+        }
+
+        .hero h1 {
+            font-size: 2.2rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            color: #131313;
+            margin-bottom: 0.6rem;
+        }
+
+        .hero .sub {
+            font-size: 1.1rem;
+            color: #5e5e64;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .hero .sub a {
+            color: #1f6d9f;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid rgba(31, 109, 159, 0.25);
+            transition: border-color 0.2s;
+        }
+
+        .hero .sub a:hover {
+            border-bottom-color: #1f6d9f;
+        }
+
+        /* 通用卡片 */
+        .card-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 1.8rem;
+        }
+
+        .card {
+            background: #fafafc;
+            border-radius: 20px;
+            padding: 1.8rem 2rem;
+            border: 1px solid #e4e4ea;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+            transition: box-shadow 0.2s;
+        }
+
+        .card:hover {
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+        }
+
+        .card h2 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #18181a;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .card h2::before {
+            content: "▍";
+            color: #2c7da7;
+            font-weight: 400;
+            font-size: 1.5rem;
+            line-height: 1;
+        }
+
+        .card p {
+            color: #2b2b30;
+            margin-bottom: 0.7rem;
+        }
+
+        .card p:last-child {
+            margin-bottom: 0;
+        }
+
+        .feature-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.8rem 1.6rem;
+            padding-left: 0.2rem;
+            margin-top: 0.4rem;
+        }
+
+        .feature-list li {
+            list-style: none;
+            display: flex;
+            gap: 8px;
+            align-items: baseline;
+            font-size: 0.95rem;
+            color: #2e2e35;
+        }
+
+        .feature-list li::before {
+            content: "—";
+            color: #7a7a82;
+            font-weight: 300;
+        }
+
+        .faq-item {
+            margin-bottom: 1.2rem;
+        }
+
+        .faq-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .faq-item strong {
+            display: block;
+            font-weight: 600;
+            color: #18181a;
+            margin-bottom: 0.2rem;
+        }
+
+        .faq-item span {
+            color: #3d3d44;
+        }
+
+        .footer-note {
+            margin-top: 2.8rem;
+            padding-top: 1.8rem;
+            border-top: 1px solid #e2e2e8;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #5f5f68;
+        }
+
+        .footer-note a {
+            color: #1f6d9f;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .footer-note a:hover {
+            text-decoration: underline;
+        }
+
+        /* 响应式 */
+        @media (max-width: 640px) {
+            .page {
+                padding: 1.6rem 1rem 2rem;
+            }
+
+            .hero {
+                padding: 2rem 0.2rem 1.8rem;
+            }
+
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .card {
+                padding: 1.4rem 1.2rem;
+            }
+
+            .feature-list {
+                grid-template-columns: 1fr;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <!-- hero 区 -->
+        <div class="hero">
+            <h1>杏彩体育 · 稳定入口</h1>
+            <div class="sub">
+                从访问到使用，每一步都经过验证。平台说明与常见问题摘要，帮助你快速了解 <a href="https://m-xingcaisports.com">杏彩体育</a> 的实际结构与特点。
+            </div>
+        </div>
+
+        <!-- 优势区 + 说明区 卡片组合 -->
+        <div class="card-grid">
+            <!-- 优势区：通过细颗粒度特点呈现 -->
+            <div class="card">
+                <h2>平台特征</h2>
+                <p>杏彩体育在长期运营中逐步形成了以稳定接入、信息透明为主要导向的服务模式。以下为常见特点摘要：</p>
+                <ul class="feature-list">
+                    <li>多线路访问策略，降低单点故障影响</li>
+                    <li>页面结构轻量，适应不同带宽环境</li>
+                    <li>无强制插件或第三方脚本干扰</li>
+                    <li>内容更新节奏清晰，公告类信息优先展示</li>
+                    <li>账户相关流程均采用标准加密协议</li>
+                </ul>
+            </div>
+
+            <!-- 说明区：从使用场景展开 -->
+            <div class="card">
+                <h2>使用说明与场景</h2>
+                <p>
+                    对于日常访问需求和信息查阅场景，建议直接使用浏览器打开 <a href="https://m-xingcaisports.com">杏彩体育</a> 即可完成基本操作。平台移动端适配程度较高，常见手机浏览器均可正常渲染。
+                </p>
+                <p>
+                    如果是首次接触，可以先浏览公开内容版块，了解导航逻辑与信息分类方式。平台不要求注册即可查看大部分说明性页面，降低了解门槛。
+                </p>
+                <p>
+                    长期使用者可关注页面底部的版本记录或更新说明，部分功能迭代会通过静态公告区同步。
+                </p>
+            </div>
+
+            <!-- FAQ 摘要 -->
+            <div class="card">
+                <h2>FAQ 摘要</h2>
+                <div class="faq-item">
+                    <strong>Q：杏彩体育的访问入口是否唯一？</strong>
+                    <span>目前提供常用主域名 <a href="https://m-xingcaisports.com">杏彩体育</a> 作为稳定入口，建议优先使用该链接。若遇临时调整，平台通常会通过公告区提供备用方式。</span>
+                </div>
+                <div class="faq-item">
+                    <strong>Q：页面加载较慢怎么办？</strong>
+                    <span>先检查本地网络环境，部分区域运营商可能存在路由延迟。也可尝试更换DNS或使用4G/5G流量对比。杏彩体育页面本身经过压缩处理，一般2-5秒内完成首屏加载。</span>
+                </div>
+                <div class="faq-item">
+                    <strong>Q：是否需要下载专用客户端？</strong>
+                    <span>不需要。杏彩体育以网页端为主要交互形式，所有功能均通过浏览器完成，不存在独立的桌面或移动客户端。</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部链接与说明 -->
+        <div class="footer-note">
+            <p>本页面为平台独立介绍页。主要入口：<a href="https://m-xingcaisports.com">杏彩体育</a> · 内容仅供说明参考，不构成使用建议。</p>
+        </div>
+    </div>
+</body>
+</html>
